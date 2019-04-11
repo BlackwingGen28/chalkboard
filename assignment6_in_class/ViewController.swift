@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         chalkboard.text = ""
         if(sentence.text != ""){//check if sentence field has a value
             if(numberOfReps > 0){//check if we have a number of reps that is 1 or more
-                for i in 0...(numberOfReps-1){
+                for _ in 0...(numberOfReps-1){
                     chalkboard.text += sentence.text!
                     chalkboard.text += "\n"
                 }
